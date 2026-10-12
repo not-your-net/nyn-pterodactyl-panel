@@ -23,7 +23,7 @@
  @import 'checkbox.css';
 
 .login-page {
-    background: #10529f;
+    background: linear-gradient(135deg, #14231c 0%, #1d3027 55%, #07523f 100%);
 }
 
 #login-position-elements {
@@ -69,16 +69,16 @@
 }
 
 .pterodactyl-login-button--main {
-    background: rgba(0, 0, 0, 0.4);
-    border: 1px solid #000;
-    border-radius: 2px;
+    background: #087a5b;
+    border: 1px solid #06664d;
+    border-radius: 4px;
     color: #fff;
 }
 
 .pterodactyl-login-button--main:hover {
-    background: rgba(0, 0, 0, 0.7);
-    border: 1px solid #000;
-    border-radius: 2px;
+    background: #06664d;
+    border: 1px solid #07523f;
+    border-radius: 4px;
     color: #fff;
 }
 
@@ -499,18 +499,30 @@ body {
     color: #cad1d8;
 }
 
+.main-header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-header .logo .brand-mark {
+    width: 28px;
+    height: 28px;
+    margin-right: 8px;
+}
+
 .fixed .main-header {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,.12), 0 2px 4px 0 rgba(0,0,0,.08);
 }
 
 .skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
-    background-color: #181f27;
+    background-color: #14231c;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,.12), 0 2px 4px 0 rgba(0,0,0,.08);
 }
 
 .skin-blue .main-header .logo {
-    background-color: #1f2933;
-    color: #9aa5b1;
+    background-color: #14231c;
+    color: #e4f0ea;
 }
 
 .skin-blue .main-header .navbar .sidebar-toggle {
@@ -527,25 +539,25 @@ body {
 }
 
 .skin-blue .main-header .navbar {
-    background-color: #1f2933;
+    background-color: #14231c;
 }
 
 .skin-blue .main-header .navbar .sidebar-toggle:hover {
-    background-color: #1c252e;
+    background-color: #1d3027;
 }
 
 .skin-blue .main-header .logo:hover {
-    background-color: #1c252e;
+    background-color: #1d3027;
 }
 
 .main-footer {
-    background: #1f2933;
+    background: #14231c;
     color: #9aa5b1;
-    border-top: 1px solid #1f2933;
+    border-top: 1px solid #14231c;
 }
 
 .skin-blue .sidebar-menu>li.active>a {
-    border-left-color: #099aa5;
+    border-left-color: #45ddb0;
 }
 
 .text-gray {
@@ -553,7 +565,7 @@ body {
 }
 
 .text-green {
-    color: #00a65a !important;
+    color: #45ddb0 !important;
 }
 
 .text-muted {
@@ -565,27 +577,27 @@ body {
 }
 
 .content-wrapper {
-    background-color: #33404d;
+    background-color: #1d3027;
 }
 
 .btn-success {
-    background-color: #189a1c;
-    border-color: #0f8513;
+    background-color: #087a5b;
+    border-color: #06664d;
 }
 
 .btn.btn-green:hover {
-    background-color: #0f8513;
-    border-color: #0e7717;
+    background-color: #06664d;
+    border-color: #07523f;
 }
 
 .btn-primary {
-    background-color: #0967d3;
-    border-color: #0550b3;
+    background-color: #087a5b;
+    border-color: #06664d;
 }
 
 .btn.btn-primary:hover {
-    background-color: #0550b3;
-    border-color: #0345a0;
+    background-color: #06664d;
+    border-color: #07523f;
 }
 
 .box {
@@ -644,7 +656,7 @@ a {
 }
 
 .nav-tabs-custom>.nav-tabs>li.active {
-    border-top-color: #099aa5;
+    border-top-color: #45ddb0;
 }
 
 .nav-tabs-custom>.nav-tabs>li.active>a {
@@ -772,7 +784,7 @@ code {
 }
 
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
-    background-color: #099aa5;
+    background-color: #087a5b;
 }
 
 a {

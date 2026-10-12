@@ -1,16 +1,29 @@
 const colors = require('tailwindcss/colors');
 
 const gray = {
-    50: 'hsl(216, 33%, 97%)',
-    100: 'hsl(214, 15%, 91%)',
-    200: 'hsl(210, 16%, 82%)',
-    300: 'hsl(211, 13%, 65%)',
-    400: 'hsl(211, 10%, 53%)',
-    500: 'hsl(211, 12%, 43%)',
-    600: 'hsl(209, 14%, 37%)',
-    700: 'hsl(209, 18%, 30%)',
-    800: 'hsl(209, 20%, 25%)',
-    900: 'hsl(210, 24%, 16%)',
+    50: '#f4faf7',
+    100: '#e4f0ea',
+    200: '#c5dbd0',
+    300: '#9cb9aa',
+    400: '#759786',
+    500: '#587966',
+    600: '#405e4e',
+    700: '#2d4639',
+    800: '#1d3027',
+    900: '#14231c',
+};
+
+const primary = {
+    50: '#e9fbf4',
+    100: '#cff6e7',
+    200: '#a2ecd1',
+    300: '#6edbb5',
+    400: '#38c394',
+    500: '#087a5b',
+    600: '#06664d',
+    700: '#07523f',
+    800: '#084234',
+    900: '#07372c',
 };
 
 module.exports = {
@@ -26,10 +39,10 @@ module.exports = {
                 black: '#131a20',
                 // "primary" and "neutral" are deprecated, prefer the use of "blue" and "gray"
                 // in new code.
-                primary: colors.blue,
+                primary,
                 gray: gray,
                 neutral: gray,
-                cyan: colors.cyan,
+                cyan: colors.teal,
             },
             fontSize: {
                 '2xs': '0.625rem',
